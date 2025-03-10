@@ -727,6 +727,19 @@ document.addEventListener("DOMContentLoaded", () => {
         reviewPage.innerHTML = `<h3>You scored ${correctAnswers} out of ${totalQuestions}.</h3>` + reviewPage.innerHTML;
         document.body.appendChild(reviewPage);
         alert("Test submitted! Check your results.");
+
+        // Create an anchor element for the solution link
+        const solutionLink = document.createElement('a');
+        solutionLink.href = 'https://t.me/cyflibrary/2/1750'; // URL to your solution page or file
+        solutionLink.textContent = 'View Full Solution';
+
+        // Optionally, style the link so it appears at the bottom or centered
+        solutionLink.style.display = 'block';
+        solutionLink.style.textAlign = 'center';
+        solutionLink.style.marginTop = '20px';
+
+        // Append the link directly to the body to appear after other content
+        document.body.appendChild(solutionLink);
     }
 
     document.getElementById("next").addEventListener("click", () => {
