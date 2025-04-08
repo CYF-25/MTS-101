@@ -908,7 +908,314 @@ document.addEventListener("DOMContentLoaded", () => {
               "D. 0"
             ],
             answer: "B"
-          }
+          },
+
+          //Quadratic and Polynomials
+          { 
+            type: "mcq", 
+            question: "Find the sum of the roots of the quadratic equation x² - 7x + 10 = 0.",  
+            options: [
+              "A. 2",
+              "B. 5",
+              "C. 7",
+              "D. -7"
+            ], 
+            answer: "C"  // Using Vieta's formula: α+β = 7
+          },
+          { 
+            type: "mcq", 
+            question: "Find the product of the roots of the quadratic equation x² + 3x - 4 = 0.",  
+            options: [
+              "A. -4",
+              "B. 3",
+              "C. -3",
+              "D. 4"
+            ], 
+            answer: "A"  // Using Vieta's formula: α·β = -4
+          },
+          { 
+            type: "mcq", 
+            question: "Solve the quadratic equation x² - 5x + 6 = 0. (Find the roots)",  
+            options: [
+              "A. x = 2 and x = 3",
+              "B. x = -2 and x = -3",
+              "C. x = 1 and x = 6",
+              "D. x = -1 and x = -6"
+            ], 
+            answer: "A"  // Factorization: (x - 2)(x - 3) = 0
+          },
+          { 
+            type: "mcq", 
+            question: "Determine the quotient when 2x³ - 3x² + 4x - 5 is divided by (x - 2).",  
+            options: [
+              "A. 2x² + x + 6",
+              "B. 2x² - x + 6",
+              "C. 2x² + x - 6",
+              "D. 2x² - x - 6"
+            ], 
+            answer: "A"  
+            // Long division yields: Quotient = 2x² + x + 6 with a remainder of 7.
+          },
+          { 
+            type: "mcq", 
+            question: "When the polynomial P(x) = x³ + kx² - 4x + 8 is divided by (x + 2) the remainder is 0. Find k.",  
+            options: [
+              "A. -2",
+              "B. 2",
+              "C. -4",
+              "D. 4"
+            ], 
+            answer: "A"  
+            // Substitute x = -2 into P(x): (-8) + 4k + 8 + 8 = 4k + 8 = 0 implies k = -2.
+          },
+          { 
+            type: "mcq", 
+            question: "If (x - 1) and (x - 3) are factors of a quadratic polynomial ax² + bx + c and the value of the polynomial at x = 0 is 8, find the value of c.",  
+            options: [
+              "A. 8",
+              "B. 3",
+              "C. 0",
+              "D. -8"
+            ], 
+            answer: "A"  
+            // With factors (x-1)(x-3) = x² - 4x + 3, multiplied by a constant a.
+            // c = a·3. Also, P(0)=a·(–1)(–3)= 3a=8 implies a = 8/3 so c = 3*(8/3)=8.
+          },
+          { 
+            type: "mcq", 
+            question: "Solve the quadratic equation 2x² - 4x - 6 = 0.",  
+            options: [
+              "A. x = 3 and x = -1",
+              "B. x = 1 and x = -3",
+              "C. x = -3 and x = 1",
+              "D. x = 3 and x = 1"
+            ], 
+            answer: "A"  
+            // Dividing by 2 gives: x² - 2x - 3 = 0, factorizes as (x - 3)(x + 1)=0.
+          },
+          { 
+            type: "mcq", 
+            question: "If the remainder when a polynomial P(x) is divided by (x - 2) is 5, what is P(2)?",  
+            options: [
+              "A. 2",
+              "B. 5",
+              "C. -5",
+              "D. 0"
+            ], 
+            answer: "B"  
+            // By the Remainder Theorem, P(2) equals the remainder 5.
+          },
+          { 
+            type: "mcq", 
+            question: "The polynomial P(x) = x³ - 4x² + x + 6 has a factor of the form (x - r). Find r.",  
+            options: [
+              "A. 2",
+              "B. -2",
+              "C. 3",
+              "D. -3"
+            ], 
+            answer: "A"  
+            // Testing r = 2: 8 - 16 + 2 + 6 = 0, so (x - 2) is a factor.
+          },
+          { 
+            type: "mcq", 
+            question: "If the sum of the coefficients of a polynomial P(x) is 0, then what is a root of P(x)?",  
+            options: [
+              "A. 0",
+              "B. 1",
+              "C. -1",
+              "D. Cannot be determined"
+            ], 
+            answer: "B"  
+            // Since P(1) equals the sum of the coefficients, if it is 0 then 1 is a root.
+          },
+
+          { 
+            type: "mcq", 
+            question: "If α, β, and γ are the roots of the equation x³ - 8x² + 9x + 18 = 0, and the sum of two of the roots is 5, find the value of α + β + γ.",  
+            options: [
+              "A. 8",
+              "B. -8",
+              "C. 9",
+              "D. -9"
+            ], 
+            answer: "A"  // Sum of roots is 8 by Vieta
+          },
+          { 
+            type: "mcq", 
+            question: "If α, β, and γ are the roots of the equation x³ - 8x² + 9x + 18 = 0, and the sum of two of the roots is 5, find the value of αβ + βγ + γα.",  
+            options: [
+              "A. 9",
+              "B. 0",
+              "C. 8",
+              "D. -8"
+            ], 
+            answer: "A"  // Sum of pairwise products is 9 by Vieta
+          },
+          { 
+            type: "mcq", 
+            question: "If α, β, and γ are the roots of the equation x³ - 8x² + 9x + 18 = 0, and the sum of two of the roots is 5, find the value of αβγ.",  
+            options: [
+              "A. 8",
+              "B. 0",
+              "C. 18",
+              "D. -18"
+            ], 
+            answer: "D"  // Product of the roots is -18 by Vieta
+          },
+          { 
+            type: "mcq", 
+            question: "Find the quotient when 21y³ - 38y² + 29y - 40 is divided by 3y - 5.",  
+            options: [
+              "A. 7y² - y + 8",
+              "B. 7y² - 73/3y + 453/3",
+              "C. 7y² - 73/3y - 453/3",
+              "D. 2y + 9"
+            ], 
+            answer: "A"  // Long division shows the quotient is 7y² - y + 8
+          },
+          { 
+            type: "mcq", 
+            question: "If (x - 1) and (x - 2) are factors of x² + ax - 7x + b, where a and b are constants, find a and b.",  
+            options: [
+              "A. a = 0,  b = 6",
+              "B. a = 2,  b = 3",
+              "C. a = 4,  b = 2",
+              "D. a = 3,  b = 6"
+            ], 
+            answer: "C"  // Equate with (x - 1)(x - 2) = x² - 3x + 2
+          },
+          { 
+            type: "mcq", 
+            question: "If (x - 1) and (x - 2) are factors of x³ + ax² - 7x + b, where a and b are constants, find the third factor.",  
+            options: [
+              "A. (x)",
+              "B. (x + 1)",
+              "C. (x - 3)",
+              "D. (x + 3)"
+            ], 
+            answer: "D"  // Matching coefficients gives the third factor as (x + 3)
+          },
+
+          { 
+            type: "mcq", 
+            question: "Find the discriminant of the quadratic equation x² - 4x + 7 = 0.",  
+            options: [
+              "A. -12",
+              "B. -16",
+              "C. 12",
+              "D. 16"
+            ], 
+            answer: "A"  // Discriminant: Δ = (-4)² - 4(1)(7) = 16 - 28 = -12.
+          },
+          { 
+            type: "mcq", 
+            question: "If α and β are the roots of the quadratic equation x² - 5x + 6 = 0, find the value of α² + β².",  
+            options: [
+              "A. 13",
+              "B. 14",
+              "C. 15",
+              "D. 16"
+            ], 
+            answer: "A"  
+            // α and β are 2 and 3. So, α²+β² = 2² + 3² = 4 + 9 = 13.
+          },
+          { 
+            type: "mcq", 
+            question: "If (x - 1) is a factor of the polynomial P(x) = x³ + px² + qx + r, what is the value of P(1)?",  
+            options: [
+              "A. p + q + r",
+              "B. 1",
+              "C. 0",
+              "D. r"
+            ], 
+            answer: "C"  
+            // By the Factor Theorem, if (x - 1) is a factor, then P(1) = 0.
+          },
+          { 
+            type: "mcq", 
+            question: "Find all the integer roots of the cubic equation x³ - 6x² + 11x - 6 = 0.",  
+            options: [
+              "A. 1, 2, 3",
+              "B. -1, -2, -3",
+              "C. 1, 3, 6",
+              "D. 2, 3, 4"
+            ], 
+            answer: "A"  
+            // The polynomial factorizes as (x - 1)(x - 2)(x - 3).
+          },
+          { 
+            type: "mcq", 
+            question: "If 3 is a root of the quadratic equation 2x² + kx - 15 = 0, find the value of k.",  
+            options: [
+              "A. 1",
+              "B. -1",
+              "C. 3",
+              "D. -3"
+            ], 
+            answer: "B"  
+            // Substitute x = 3: 2(9) + 3k - 15 = 18 + 3k -15 = 3k + 3 = 0 ⟹ k = -1.
+          },
+          { 
+            type: "mcq", 
+            question: "Determine the remainder when the polynomial 4x³ - x² + 5x - 2 is divided by x + 1.",  
+            options: [
+              "A. -12",
+              "B. 12",
+              "C. -10",
+              "D. 10"
+            ], 
+            answer: "A"  
+            // Using the Remainder Theorem: P(-1) = 4(-1)³ - (-1)² + 5(-1) - 2 = -4 -1 -5 -2 = -12.
+          },
+          { 
+            type: "mcq", 
+            question: "If α and β are the roots of the quadratic equation x² - 3x + 2 = 0, find the value of α³ + β³.",  
+            options: [
+              "A. 6",
+              "B. 7",
+              "C. 9",
+              "D. 10"
+            ], 
+            answer: "C"  
+            // Since α and β are 1 and 2, α³+β³ = 1³+2³ = 1+8 = 9.
+          },
+          { 
+            type: "mcq", 
+            question: "Find the remainder when f(x) = 2x³ - 3x² + 4 is divided by (x - 1).",  
+            options: [
+              "A. 2",
+              "B. 3",
+              "C. 4",
+              "D. 5"
+            ], 
+            answer: "B"  
+            // Using the Remainder Theorem: f(1)=2-3+4=3.
+          },
+          { 
+            type: "mcq", 
+            question: "Find the x-coordinate of the vertex of the quadratic function y = 3x² - 12x + 7.",  
+            options: [
+              "A. 1",
+              "B. 2",
+              "C. 7/3",
+              "D. 4"
+            ], 
+            answer: "B"  
+            // The vertex x-coordinate is -b/(2a) = 12/(6) = 2.
+          },
+          { 
+            type: "mcq", 
+            question: "Find the value of k such that the quadratic equation x² + kx + k = 0 has a repeated (double) root.",  
+            options: [
+              "A. 0",
+              "B. -4",
+              "C. 4",
+              "D. 2"
+            ], 
+            answer: "C"  
+            // For a repeated root, discriminant must be zero: k² - 4k = 0 ⟹ k(k-4) = 0. Since k = 0 gives a trivial quadratic, k = 4 is the non-zero solution.
+          },
         ];     
     
     
