@@ -577,338 +577,7 @@ document.addEventListener("DOMContentLoaded", () => {
             answer: "B" 
           },
 
-          //Trigonometry
-          {
-            type: "mcq",
-            question: "Evaluate sin²θ / (cos²θ − 1)",
-            options: [
-              "A. −1",
-              "B. 1",
-              "C. 2",
-              "D. −2"
-            ],
-            answer: "A"
-          },
-          {
-            type: "mcq",
-            question: "Simplify sin²x / tan x",
-            options: [
-              "A. sin x",
-              "B. cos x",
-              "C. sin x cos x",
-              "D. sin²x cos²x"
-            ],
-            answer: "C"
-          },
-          {
-            type: "mcq",
-            question: "If tan(½x) = b, express tan x in terms of b.",
-            options: [
-              "A. 2b",
-              "B. 1 − b²",
-              "C. (1 − b²) / 2b",
-              "D. 2b / (1 − b²)"
-            ],
-            answer: "D"
-          },
-          {
-            type: "mcq",
-            question: "If tan(½x) = f, what is sin x in terms of f?",
-            options: [
-              "A. 2f / (1 + f²)",
-              "B. 2f / (1 + f)",
-              "C. 2f² / (1 + f)",
-              "D. 2f² / (1 + f²)"
-            ],
-            answer: "A"
-          },
-          {
-            type: "mcq",
-            question: "If tan(½x) = k, what is cos x in terms of k?",
-            options: [
-              "A. 2k² / (1 + k²)",
-              "B. (1 − 2k²) / (1 + k²)",
-              "C. (1 − k²) / (1 + k²)",
-              "D. (1 + k²) / (1 − k²)"
-            ],
-            answer: "C"
-          },
-          {
-            type: "mcq",
-            question: "What is the result of 1 + tan²θ?",
-            options: [
-              "A. sin²θ",
-              "B. sec²θ",
-              "C. cos²θ",
-              "D. tan²θ"
-            ],
-            answer: "B"
-          },
-          {
-            type: "mcq",
-            question: "Evaluate 1 + cot²θ.",
-            options: [
-              "A. sin²θ",
-              "B. cosec²θ",
-              "C. cos²θ",
-              "D. tan²θ"
-            ],
-            answer: "B"
-          },
-          {
-            type: "mcq",
-            question: "Simplify sin²p + (1 + cos²p)²",
-            options: [
-              "A. 2(1 + cos p)",
-              "B. 2 cos p",
-              "C. 1 + cos p",
-              "D. cos p − 1"
-            ],
-            answer: "A"
-          },
-          {
-            type: "mcq",
-            question: "Evaluate (1 + sin ∅)/(1 + cos ∅) × (1 + sec ∅)/(1 + cosec ∅)",
-            options: [
-              "A. sin ∅",
-              "B. cos ∅",
-              "C. tan ∅",
-              "D. cot ∅"
-            ],
-            answer: "C"
-          },
-          {
-            type: "mcq",
-            question: "Expand tan (45° + A)",
-            options: [
-              "A. (1 + tan A)/(1 + tan A)",
-              "B. (1 − tan A)/(1 − tan A)",
-              "C. (1 + tan A)/tan A",
-              "D. (1 + tan A)/(1 − tan A)"
-            ],
-            answer: "D"
-          },
-
-          {
-            type: "mcq",
-            question: "Evaluate tan (90° + A)",
-            options: [
-              "A. 0",
-              "B. ∞",
-              "C. −1",
-              "D. 1"
-            ],
-            answer: "B"
-          },
-          {
-            type: "mcq",
-            question: "If sin 45° = cos 45° = 1/√2; sin 30° = 1/2; cos 30° = √3/2, evaluate sin 75°.",
-            options: [
-              "A. (√2 + √6)/4",
-              "B. (√2 − √6)/4",
-              "C. (√6 − √2)/4",
-              "D. (√2 + √3)/4"
-            ],
-            answer: "A"
-          },
-          {
-            type: "mcq",
-            question: "If sin 45° = cos 45° = 1/√2; sin 30° = 1/2; cos 30° = √3/2, evaluate cos 75°.",
-            options: [
-              "A. (√6 + √2)/4",
-              "B. (√2 + √3)/4",
-              "C. (√6 − √2)/4",
-              "D. (√2 − √6)/4"
-            ],
-            answer: "C"
-          },
-          {
-            type: "mcq",
-            question: "Find cos 105°, if sin 45° = cos 45° = 1/√2, sin 60° = √3/2; cos 60° = 1/2",
-            options: [
-              "A. (√2 + √6)/4",
-              "B. (√2 − √6)/4",
-              "C. (√2 − √6)/5",
-              "D. (√2 − √3)/4"
-            ],
-            answer: "B"
-          },
-          {
-            type: "mcq",
-            question: "Which of these evaluates to 1?",
-            options: [
-              "A. sec²x − tan²x",
-              "B. sec²x + tan²x",
-              "C. tan²x − sec²x",
-              "D. tan x − sec²x"
-            ],
-            answer: "A"
-          },
-          {
-            type: "mcq",
-            question: "Which of these evaluates to 1?",
-            options: [
-              "A. cot y − cosec y",
-              "B. cot²y − cosec²y",
-              "C. cosec y − cot y",
-              "D. cosec²y − cot²y"
-            ],
-            answer: "D"
-          },
-          {
-            type: "mcq",
-            question: "Evaluate sec²p − 1.",
-            options: [
-              "A. tan p",
-              "B. tan p sec p",
-              "C. tan²p",
-              "D. tan³p"
-            ],
-            answer: "C"
-          },
-          {
-            type: "mcq",
-            question: "Evaluate tan²q − sec²q.",
-            options: [
-              "A. 1",
-              "B. −1",
-              "C. 2",
-              "D. −2"
-            ],
-            answer: "B"
-          },
-          {
-            type: "mcq",
-            question: "What is the result of sec²x − tan²x?",
-            options: [
-              "A. 1",
-              "B. −1",
-              "C. 2",
-              "D. −2"
-            ],
-            answer: "A"
-          },
-          {
-            type: "mcq",
-            question: "Which of these evaluates to −1?",
-            options: [
-              "A. cot²r + cosec²r",
-              "B. cot r",
-              "C. cot²r − cosec²r",
-              "D. cot r − cosec r"
-            ],
-            answer: "C"
-          },
-          {
-            type: "mcq",
-            question: "Which of these is equivalent to sin 2w?",
-            options: [
-              "A. 2 sin w cos w",
-              "B. 2 sin²w",
-              "C. 2 cos²w",
-              "D. sin w cos w"
-            ],
-            answer: "A"
-          },
-          {
-            type: "mcq",
-            question: "Which of these is equivalent to cos 2z?",
-            options: [
-              "A. 1 − cos²z",
-              "B. 1 + cos z",
-              "C. 2 cos²z − 1",
-              "D. 1 + 2 cos²z"
-            ],
-            answer: "C"
-          },
-          {
-            type: "mcq",
-            question: "Which of these is equivalent to tan 2t?",
-            options: [
-              "A. (1 − tan²t)/t",
-              "B. (2 tan t)/(1 − tan²t)",
-              "C. (1 − tan²t)/(2 tan t)",
-              "D. (tan t + 1)/(2 tan t)"
-            ],
-            answer: "B"
-          },
-          {
-            type: "mcq",
-            question: "Expand sin v.",
-            options: [
-              "A. sin(½v) cos(½v)",
-              "B. sin²(½v)",
-              "C. cos²(½v)",
-              "D. 2 sin(½v) cos(½v)"
-            ],
-            answer: "D"
-          },
-          {
-            type: "mcq",
-            question: "Expand cos a.",
-            options: [
-              "A. cos²(a/2) + 1",
-              "B. 2 cos²(a/2) − 1",
-              "C. 2 cos²(a/2) + 1",
-              "D. 2 − cos²(a/2)"
-            ],
-            answer: "B"
-          },
-          {
-            type: "mcq",
-            question: "What is the equivalence of sin(p + q)?",
-            options: [
-              "A. sin p sin q + cos p cos q",
-              "B. sin p sin q − cos p cos q",
-              "C. sin p cos q − cos p sin q",
-              "D. sin p cos q + cos p sin q"
-            ],
-            answer: "D"
-          },
-          {
-            type: "mcq",
-            question: "What is the equivalence of sin(p − q)?",
-            options: [
-              "A. sin p sin q + cos p cos q",
-              "B. sin p sin q − cos p cos q",
-              "C. sin p cos q − cos p sin q",
-              "D. sin p cos q + cos p sin q"
-            ],
-            answer: "C"
-          },
-          {
-            type: "mcq",
-            question: "Expand cos(x + y).",
-            options: [
-              "A. cos x cos y − sin x sin y",
-              "B. cos x cos y + sin x sin y",
-              "C. sin x sin y − cos x cos y",
-              "D. sin x sin y + cos x cos y"
-            ],
-            answer: "A"
-          },
-          {
-            type: "mcq",
-            question: "Expand cos(x − y).",
-            options: [
-              "A. cos x cos y − sin x sin y",
-              "B. cos x cos y + sin x sin y",
-              "C. sin x sin y − cos x cos y",
-              "D. sin x sin y + cos x cos y"
-            ],
-            answer: "B"
-          },
-          {
-            type: "mcq",
-            question: "Express sin 60° in surd form.",
-            options: [
-              "A. 1/2",
-              "B. √3/2",
-              "C. 1/√2",
-              "D. 0"
-            ],
-            answer: "B"
-          },
+          
 
           //Quadratic and Polynomials
           { 
@@ -2098,6 +1767,672 @@ document.addEventListener("DOMContentLoaded", () => {
       ],
       answer: "C" 
     },
+
+    //Trigonometry
+          {
+            type: "mcq",
+            question: "Evaluate sin²θ / (cos²θ − 1)",
+            options: [
+              "A. −1",
+              "B. 1",
+              "C. 2",
+              "D. −2"
+            ],
+            answer: "A"
+          },
+          {
+            type: "mcq",
+            question: "Simplify sin²x / tan x",
+            options: [
+              "A. sin x",
+              "B. cos x",
+              "C. sin x cos x",
+              "D. sin²x cos²x"
+            ],
+            answer: "C"
+          },
+          {
+            type: "mcq",
+            question: "If tan(½x) = b, express tan x in terms of b.",
+            options: [
+              "A. 2b",
+              "B. 1 − b²",
+              "C. (1 − b²) / 2b",
+              "D. 2b / (1 − b²)"
+            ],
+            answer: "D"
+          },
+          {
+            type: "mcq",
+            question: "If tan(½x) = f, what is sin x in terms of f?",
+            options: [
+              "A. 2f / (1 + f²)",
+              "B. 2f / (1 + f)",
+              "C. 2f² / (1 + f)",
+              "D. 2f² / (1 + f²)"
+            ],
+            answer: "A"
+          },
+          {
+            type: "mcq",
+            question: "If tan(½x) = k, what is cos x in terms of k?",
+            options: [
+              "A. 2k² / (1 + k²)",
+              "B. (1 − 2k²) / (1 + k²)",
+              "C. (1 − k²) / (1 + k²)",
+              "D. (1 + k²) / (1 − k²)"
+            ],
+            answer: "C"
+          },
+          {
+            type: "mcq",
+            question: "What is the result of 1 + tan²θ?",
+            options: [
+              "A. sin²θ",
+              "B. sec²θ",
+              "C. cos²θ",
+              "D. tan²θ"
+            ],
+            answer: "B"
+          },
+          {
+            type: "mcq",
+            question: "Evaluate 1 + cot²θ.",
+            options: [
+              "A. sin²θ",
+              "B. cosec²θ",
+              "C. cos²θ",
+              "D. tan²θ"
+            ],
+            answer: "B"
+          },
+          {
+            type: "mcq",
+            question: "Simplify sin²p + (1 + cos²p)²",
+            options: [
+              "A. 2(1 + cos p)",
+              "B. 2 cos p",
+              "C. 1 + cos p",
+              "D. cos p − 1"
+            ],
+            answer: "A"
+          },
+          {
+            type: "mcq",
+            question: "Evaluate (1 + sin ∅)/(1 + cos ∅) × (1 + sec ∅)/(1 + cosec ∅)",
+            options: [
+              "A. sin ∅",
+              "B. cos ∅",
+              "C. tan ∅",
+              "D. cot ∅"
+            ],
+            answer: "C"
+          },
+          {
+            type: "mcq",
+            question: "Expand tan (45° + A)",
+            options: [
+              "A. (1 + tan A)/(1 + tan A)",
+              "B. (1 − tan A)/(1 − tan A)",
+              "C. (1 + tan A)/tan A",
+              "D. (1 + tan A)/(1 − tan A)"
+            ],
+            answer: "D"
+          },
+
+          {
+            type: "mcq",
+            question: "Evaluate tan (90° + A)",
+            options: [
+              "A. 0",
+              "B. ∞",
+              "C. −1",
+              "D. 1"
+            ],
+            answer: "B"
+          },
+          {
+            type: "mcq",
+            question: "If sin 45° = cos 45° = 1/√2; sin 30° = 1/2; cos 30° = √3/2, evaluate sin 75°.",
+            options: [
+              "A. (√2 + √6)/4",
+              "B. (√2 − √6)/4",
+              "C. (√6 − √2)/4",
+              "D. (√2 + √3)/4"
+            ],
+            answer: "A"
+          },
+          {
+            type: "mcq",
+            question: "If sin 45° = cos 45° = 1/√2; sin 30° = 1/2; cos 30° = √3/2, evaluate cos 75°.",
+            options: [
+              "A. (√6 + √2)/4",
+              "B. (√2 + √3)/4",
+              "C. (√6 − √2)/4",
+              "D. (√2 − √6)/4"
+            ],
+            answer: "C"
+          },
+          {
+            type: "mcq",
+            question: "Find cos 105°, if sin 45° = cos 45° = 1/√2, sin 60° = √3/2; cos 60° = 1/2",
+            options: [
+              "A. (√2 + √6)/4",
+              "B. (√2 − √6)/4",
+              "C. (√2 − √6)/5",
+              "D. (√2 − √3)/4"
+            ],
+            answer: "B"
+          },
+          {
+            type: "mcq",
+            question: "Which of these evaluates to 1?",
+            options: [
+              "A. sec²x − tan²x",
+              "B. sec²x + tan²x",
+              "C. tan²x − sec²x",
+              "D. tan x − sec²x"
+            ],
+            answer: "A"
+          },
+          {
+            type: "mcq",
+            question: "Which of these evaluates to 1?",
+            options: [
+              "A. cot y − cosec y",
+              "B. cot²y − cosec²y",
+              "C. cosec y − cot y",
+              "D. cosec²y − cot²y"
+            ],
+            answer: "D"
+          },
+          {
+            type: "mcq",
+            question: "Evaluate sec²p − 1.",
+            options: [
+              "A. tan p",
+              "B. tan p sec p",
+              "C. tan²p",
+              "D. tan³p"
+            ],
+            answer: "C"
+          },
+          {
+            type: "mcq",
+            question: "Evaluate tan²q − sec²q.",
+            options: [
+              "A. 1",
+              "B. −1",
+              "C. 2",
+              "D. −2"
+            ],
+            answer: "B"
+          },
+          {
+            type: "mcq",
+            question: "What is the result of sec²x − tan²x?",
+            options: [
+              "A. 1",
+              "B. −1",
+              "C. 2",
+              "D. −2"
+            ],
+            answer: "A"
+          },
+          {
+            type: "mcq",
+            question: "Which of these evaluates to −1?",
+            options: [
+              "A. cot²r + cosec²r",
+              "B. cot r",
+              "C. cot²r − cosec²r",
+              "D. cot r − cosec r"
+            ],
+            answer: "C"
+          },
+          {
+            type: "mcq",
+            question: "Which of these is equivalent to sin 2w?",
+            options: [
+              "A. 2 sin w cos w",
+              "B. 2 sin²w",
+              "C. 2 cos²w",
+              "D. sin w cos w"
+            ],
+            answer: "A"
+          },
+          {
+            type: "mcq",
+            question: "Which of these is equivalent to cos 2z?",
+            options: [
+              "A. 1 − cos²z",
+              "B. 1 + cos z",
+              "C. 2 cos²z − 1",
+              "D. 1 + 2 cos²z"
+            ],
+            answer: "C"
+          },
+          {
+            type: "mcq",
+            question: "Which of these is equivalent to tan 2t?",
+            options: [
+              "A. (1 − tan²t)/t",
+              "B. (2 tan t)/(1 − tan²t)",
+              "C. (1 − tan²t)/(2 tan t)",
+              "D. (tan t + 1)/(2 tan t)"
+            ],
+            answer: "B"
+          },
+          {
+            type: "mcq",
+            question: "Expand sin v.",
+            options: [
+              "A. sin(½v) cos(½v)",
+              "B. sin²(½v)",
+              "C. cos²(½v)",
+              "D. 2 sin(½v) cos(½v)"
+            ],
+            answer: "D"
+          },
+          {
+            type: "mcq",
+            question: "Expand cos a.",
+            options: [
+              "A. cos²(a/2) + 1",
+              "B. 2 cos²(a/2) − 1",
+              "C. 2 cos²(a/2) + 1",
+              "D. 2 − cos²(a/2)"
+            ],
+            answer: "B"
+          },
+          {
+            type: "mcq",
+            question: "What is the equivalence of sin(p + q)?",
+            options: [
+              "A. sin p sin q + cos p cos q",
+              "B. sin p sin q − cos p cos q",
+              "C. sin p cos q − cos p sin q",
+              "D. sin p cos q + cos p sin q"
+            ],
+            answer: "D"
+          },
+          {
+            type: "mcq",
+            question: "What is the equivalence of sin(p − q)?",
+            options: [
+              "A. sin p sin q + cos p cos q",
+              "B. sin p sin q − cos p cos q",
+              "C. sin p cos q − cos p sin q",
+              "D. sin p cos q + cos p sin q"
+            ],
+            answer: "C"
+          },
+          {
+            type: "mcq",
+            question: "Expand cos(x + y).",
+            options: [
+              "A. cos x cos y − sin x sin y",
+              "B. cos x cos y + sin x sin y",
+              "C. sin x sin y − cos x cos y",
+              "D. sin x sin y + cos x cos y"
+            ],
+            answer: "A"
+          },
+          {
+            type: "mcq",
+            question: "Expand cos(x − y).",
+            options: [
+              "A. cos x cos y − sin x sin y",
+              "B. cos x cos y + sin x sin y",
+              "C. sin x sin y − cos x cos y",
+              "D. sin x sin y + cos x cos y"
+            ],
+            answer: "B"
+          },
+          {
+            type: "mcq",
+            question: "Express sin 60° in surd form.",
+            options: [
+              "A. 1/2",
+              "B. √3/2",
+              "C. 1/√2",
+              "D. 0"
+            ],
+            answer: "B"
+          },
+
+          //Trigonometry
+          {
+            type: "mcq",
+            question: "Evaluate sin²θ / (cos²θ − 1)",
+            options: [
+              "A. −1",
+              "B. 1",
+              "C. 2",
+              "D. −2"
+            ],
+            answer: "A"
+          },
+          {
+            type: "mcq",
+            question: "Simplify sin²x / tan x",
+            options: [
+              "A. sin x",
+              "B. cos x",
+              "C. sin x cos x",
+              "D. sin²x cos²x"
+            ],
+            answer: "C"
+          },
+          {
+            type: "mcq",
+            question: "If tan(½x) = b, express tan x in terms of b.",
+            options: [
+              "A. 2b",
+              "B. 1 − b²",
+              "C. (1 − b²) / 2b",
+              "D. 2b / (1 − b²)"
+            ],
+            answer: "D"
+          },
+          {
+            type: "mcq",
+            question: "If tan(½x) = f, what is sin x in terms of f?",
+            options: [
+              "A. 2f / (1 + f²)",
+              "B. 2f / (1 + f)",
+              "C. 2f² / (1 + f)",
+              "D. 2f² / (1 + f²)"
+            ],
+            answer: "A"
+          },
+          {
+            type: "mcq",
+            question: "If tan(½x) = k, what is cos x in terms of k?",
+            options: [
+              "A. 2k² / (1 + k²)",
+              "B. (1 − 2k²) / (1 + k²)",
+              "C. (1 − k²) / (1 + k²)",
+              "D. (1 + k²) / (1 − k²)"
+            ],
+            answer: "C"
+          },
+          {
+            type: "mcq",
+            question: "What is the result of 1 + tan²θ?",
+            options: [
+              "A. sin²θ",
+              "B. sec²θ",
+              "C. cos²θ",
+              "D. tan²θ"
+            ],
+            answer: "B"
+          },
+          {
+            type: "mcq",
+            question: "Evaluate 1 + cot²θ.",
+            options: [
+              "A. sin²θ",
+              "B. cosec²θ",
+              "C. cos²θ",
+              "D. tan²θ"
+            ],
+            answer: "B"
+          },
+          {
+            type: "mcq",
+            question: "Simplify sin²p + (1 + cos²p)²",
+            options: [
+              "A. 2(1 + cos p)",
+              "B. 2 cos p",
+              "C. 1 + cos p",
+              "D. cos p − 1"
+            ],
+            answer: "A"
+          },
+          {
+            type: "mcq",
+            question: "Evaluate (1 + sin ∅)/(1 + cos ∅) × (1 + sec ∅)/(1 + cosec ∅)",
+            options: [
+              "A. sin ∅",
+              "B. cos ∅",
+              "C. tan ∅",
+              "D. cot ∅"
+            ],
+            answer: "C"
+          },
+          {
+            type: "mcq",
+            question: "Expand tan (45° + A)",
+            options: [
+              "A. (1 + tan A)/(1 + tan A)",
+              "B. (1 − tan A)/(1 − tan A)",
+              "C. (1 + tan A)/tan A",
+              "D. (1 + tan A)/(1 − tan A)"
+            ],
+            answer: "D"
+          },
+
+          {
+            type: "mcq",
+            question: "Evaluate tan (90° + A)",
+            options: [
+              "A. 0",
+              "B. ∞",
+              "C. −1",
+              "D. 1"
+            ],
+            answer: "B"
+          },
+          {
+            type: "mcq",
+            question: "If sin 45° = cos 45° = 1/√2; sin 30° = 1/2; cos 30° = √3/2, evaluate sin 75°.",
+            options: [
+              "A. (√2 + √6)/4",
+              "B. (√2 − √6)/4",
+              "C. (√6 − √2)/4",
+              "D. (√2 + √3)/4"
+            ],
+            answer: "A"
+          },
+          {
+            type: "mcq",
+            question: "If sin 45° = cos 45° = 1/√2; sin 30° = 1/2; cos 30° = √3/2, evaluate cos 75°.",
+            options: [
+              "A. (√6 + √2)/4",
+              "B. (√2 + √3)/4",
+              "C. (√6 − √2)/4",
+              "D. (√2 − √6)/4"
+            ],
+            answer: "C"
+          },
+          {
+            type: "mcq",
+            question: "Find cos 105°, if sin 45° = cos 45° = 1/√2, sin 60° = √3/2; cos 60° = 1/2",
+            options: [
+              "A. (√2 + √6)/4",
+              "B. (√2 − √6)/4",
+              "C. (√2 − √6)/5",
+              "D. (√2 − √3)/4"
+            ],
+            answer: "B"
+          },
+          {
+            type: "mcq",
+            question: "Which of these evaluates to 1?",
+            options: [
+              "A. sec²x − tan²x",
+              "B. sec²x + tan²x",
+              "C. tan²x − sec²x",
+              "D. tan x − sec²x"
+            ],
+            answer: "A"
+          },
+          {
+            type: "mcq",
+            question: "Which of these evaluates to 1?",
+            options: [
+              "A. cot y − cosec y",
+              "B. cot²y − cosec²y",
+              "C. cosec y − cot y",
+              "D. cosec²y − cot²y"
+            ],
+            answer: "D"
+          },
+          {
+            type: "mcq",
+            question: "Evaluate sec²p − 1.",
+            options: [
+              "A. tan p",
+              "B. tan p sec p",
+              "C. tan²p",
+              "D. tan³p"
+            ],
+            answer: "C"
+          },
+          {
+            type: "mcq",
+            question: "Evaluate tan²q − sec²q.",
+            options: [
+              "A. 1",
+              "B. −1",
+              "C. 2",
+              "D. −2"
+            ],
+            answer: "B"
+          },
+          {
+            type: "mcq",
+            question: "What is the result of sec²x − tan²x?",
+            options: [
+              "A. 1",
+              "B. −1",
+              "C. 2",
+              "D. −2"
+            ],
+            answer: "A"
+          },
+          {
+            type: "mcq",
+            question: "Which of these evaluates to −1?",
+            options: [
+              "A. cot²r + cosec²r",
+              "B. cot r",
+              "C. cot²r − cosec²r",
+              "D. cot r − cosec r"
+            ],
+            answer: "C"
+          },
+          {
+            type: "mcq",
+            question: "Which of these is equivalent to sin 2w?",
+            options: [
+              "A. 2 sin w cos w",
+              "B. 2 sin²w",
+              "C. 2 cos²w",
+              "D. sin w cos w"
+            ],
+            answer: "A"
+          },
+          {
+            type: "mcq",
+            question: "Which of these is equivalent to cos 2z?",
+            options: [
+              "A. 1 − cos²z",
+              "B. 1 + cos z",
+              "C. 2 cos²z − 1",
+              "D. 1 + 2 cos²z"
+            ],
+            answer: "C"
+          },
+          {
+            type: "mcq",
+            question: "Which of these is equivalent to tan 2t?",
+            options: [
+              "A. (1 − tan²t)/t",
+              "B. (2 tan t)/(1 − tan²t)",
+              "C. (1 − tan²t)/(2 tan t)",
+              "D. (tan t + 1)/(2 tan t)"
+            ],
+            answer: "B"
+          },
+          {
+            type: "mcq",
+            question: "Expand sin v.",
+            options: [
+              "A. sin(½v) cos(½v)",
+              "B. sin²(½v)",
+              "C. cos²(½v)",
+              "D. 2 sin(½v) cos(½v)"
+            ],
+            answer: "D"
+          },
+          {
+            type: "mcq",
+            question: "Expand cos a.",
+            options: [
+              "A. cos²(a/2) + 1",
+              "B. 2 cos²(a/2) − 1",
+              "C. 2 cos²(a/2) + 1",
+              "D. 2 − cos²(a/2)"
+            ],
+            answer: "B"
+          },
+          {
+            type: "mcq",
+            question: "What is the equivalence of sin(p + q)?",
+            options: [
+              "A. sin p sin q + cos p cos q",
+              "B. sin p sin q − cos p cos q",
+              "C. sin p cos q − cos p sin q",
+              "D. sin p cos q + cos p sin q"
+            ],
+            answer: "D"
+          },
+          {
+            type: "mcq",
+            question: "What is the equivalence of sin(p − q)?",
+            options: [
+              "A. sin p sin q + cos p cos q",
+              "B. sin p sin q − cos p cos q",
+              "C. sin p cos q − cos p sin q",
+              "D. sin p cos q + cos p sin q"
+            ],
+            answer: "C"
+          },
+          {
+            type: "mcq",
+            question: "Expand cos(x + y).",
+            options: [
+              "A. cos x cos y − sin x sin y",
+              "B. cos x cos y + sin x sin y",
+              "C. sin x sin y − cos x cos y",
+              "D. sin x sin y + cos x cos y"
+            ],
+            answer: "A"
+          },
+          {
+            type: "mcq",
+            question: "Expand cos(x − y).",
+            options: [
+              "A. cos x cos y − sin x sin y",
+              "B. cos x cos y + sin x sin y",
+              "C. sin x sin y − cos x cos y",
+              "D. sin x sin y + cos x cos y"
+            ],
+            answer: "B"
+          },
+          {
+            type: "mcq",
+            question: "Express sin 60° in surd form.",
+            options: [
+              "A. 1/2",
+              "B. √3/2",
+              "C. 1/√2",
+              "D. 0"
+            ],
+            answer: "B"
+          },
     
 
     
