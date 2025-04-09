@@ -1216,6 +1216,891 @@ document.addEventListener("DOMContentLoaded", () => {
             answer: "C"  
             // For a repeated root, discriminant must be zero: k² - 4k = 0 ⟹ k(k-4) = 0. Since k = 0 gives a trivial quadratic, k = 4 is the non-zero solution.
           },
+
+        //Sequence and series
+        {
+          type: "mcq",
+          question: "The first term of an arithmetic series is 3, the common difference is 4 and the sum of all terms is 820. Find the number of terms and the last term.",
+          options: [
+            "A. 79, 20",
+            "B. 20, 79",
+            "C. -20.5, 80",
+            "D. 80, -20.5"
+          ],
+          answer: "B"
+        },
+        {
+          type: "mcq",
+          question: "Find the sum to which the series converges: 1/5 + 1/25 + 1/125 + …",
+          options: [
+            "A. 1/2",
+            "B. 1/4",
+            "C. 1/8",
+            "D. 1/16"
+          ],
+          answer: "B"
+        },
+        {
+          type: "mcq",
+          question: "What is the ninth term of the geometric sequence if the third term and the seventh term are -1 and -81?",
+          options: [
+            "A. 3",
+            "B. -1/9",
+            "C. -729",
+            "D. 927"
+          ],
+          answer: "C"
+        },
+        {
+          type: "mcq",
+          question: "What is the second term of the series, if the three numbers in geometric sequence whose sum is 13 and whose product is 64?",
+          options: [
+            "A. 4",
+            "B. 3",
+            "C. 5",
+            "D. 6"
+          ],
+          answer: "A"
+        },
+        {
+          type: "mcq",
+          question: "Evaluate the tenth term of the series 3 + 9 + 27 + 81 + …",
+          options: [
+            "A. 50499",
+            "B. 59490",
+            "C. 59049",
+            "D. 59940"
+          ],
+          answer: "C"
+        },
+        {
+          type: "mcq",
+          question: "Find the three numbers in arithmetic progression whose sum is 3 and whose product is -15.",
+          options: [
+            "A. 5, -3, 1",
+            "B. -3, 1, 5",
+            "C. 1, 5, -3",
+            "D. None"
+          ],
+          answer: "B"
+        },
+        {
+          type: "mcq",
+          question: "If U₁ = -1, U₂ = -5 and Uₙ = a + br, find a and b.",
+          options: [
+            "A. 2, -3",
+            "B. -1, -5",
+            "C. 3, -4",
+            "D. 4, -3"
+          ],
+          answer: "C"
+        },
+        {
+          type: "mcq",
+          question: "To what sum does the following series converge: 1/3 + 1/9 + 1/27 + …",
+          options: [
+            "A. 1/3",
+            "B. 3",
+            "C. 3/4",
+            "D. 4, -3"
+          ],
+          answer: "C"
+        },
+        {
+          type: "mcq",
+          question: "The first term and the last term of a geometric series are 3 and 768, if the sum of the terms is 1533. Find the common ratio.",
+          options: [
+            "A. 3",
+            "B. 1/2",
+            "C. 2",
+            "D. -1/2"
+          ],
+          answer: "B"
+        },
+        {
+          type: "mcq",
+          question: "Find the first term and common ratio of the geometric series if the third term and the seventh term are 81 and 16 respectively.",
+          options: [
+            "A. 2, 729/4",
+            "B. 3, 4/729",
+            "C. 2, 4/729",
+            "D. 3, 729/4"
+          ],
+          answer: "A"
+        },
+        {
+          type: "mcq",
+          question: "The sum of the first twenty terms of an arithmetic progression is 45, and the sum of the first forty terms is 290. Find the first term and the common difference.",
+          options: [
+            "A. -5/2, 2",
+            "B. -2, 1.5",
+            "C. 1, 5/2"
+          ],
+          answer: "A"
+        },
+
+        {
+          type: "mcq",
+          question: "The sums 1, 1+2, 1+2+3, ... are referred to as",
+          options: [
+            "A. Sequence",
+            "B. Triangular number",
+            "C. Amicable number",
+            "D. Perfect square"
+          ],
+          answer: "B"
+        },
+        {
+          type: "mcq",
+          question: "Which one of the following is correct for Harmonic progression?",
+          options: [
+            "A. 1 / (a + (n − 1)d)",
+            "B. a + l",
+            "C. arⁿ⁻¹",
+            "D. √[a + (n−1)d]"
+          ],
+          answer: "A"
+        },
+        {
+          type: "mcq",
+          question: "Find the sum of the first twenty-five odd numbers.",
+          options: [
+            "A. 526",
+            "B. 625",
+            "C. 265",
+            "D. 562"
+          ],
+          answer: "B"
+        },
+        {
+          type: "mcq",
+          question: "If the second term and fourth term of an exponential function are 6 and 54, find the nᵗʰ term.",
+          options: [
+            "A. 3ⁿ⁻¹ / 2",
+            "B. 3ⁿ⁻¹",
+            "C. 2·3ⁿ⁻¹",
+            "D. 6ⁿ⁻¹"
+          ],
+          answer: "C"
+        },
+        {
+          type: "mcq",
+          question: "The first term of a geometric progression is 10 and the sum to infinity is 20. Find the common ratio.",
+          options: [
+            "A. 2",
+            "B. 1/2",
+            "C. 1/4",
+            "D. 4"
+          ],
+          answer: "B"
+        },
+        {
+          type: "mcq",
+          question: "The first term of an A.P. is 4 while the sum to infinity is 20. Find the common ratio.",
+          options: [
+            "A. 4/5 ",
+            "B. 4",
+            "C. 5/4 ",
+            "D. 5"
+          ],
+          answer: "A"  
+        },
+
+        //
+        {
+          type: "mcq", 
+          question: "The fourth term of an arithmetic progression is 13 while the tenth term is 31. Find the twenty-first term",  
+          options: [
+            "A. 46",
+            "B. 64",
+            "C. 3",
+            "D. 3"
+          ], 
+          answer: "B"
+        },
+        {
+          type: "mcq", 
+          question: "The second term and the fourth term of a geometric progression are 8 and 32 respectively. What is the sum of the first four terms",  
+          options: [
+            "A. 2",
+            "B. 4",
+            "C. 60",
+            "D. 15"
+          ], 
+          answer: "C"
+        },
+        {
+          type: "mcq", 
+          question: "Express the recurring decimal 0.331... as a fraction in its lowest term",  
+          options: [
+            "A. 99",
+            "B. 331/999",
+            "C. 999/3",
+            "D. 99"
+          ], 
+          answer: "B"
+        },
+        {
+          type: "mcq", 
+          question: "For what value of x does the series 1/(1 + 4x) - (1+ x)/ (1 + 4x)² + (1+ x)²/ (1 + 4x)³ - ...",  
+          options: [
+            "A. (1 + 4x)",
+            "B. {l + 4x}",
+            "C. -1/4 > x > 0, -2/5 > x > -1/4",
+            "D. -1/4 > x > 1, -5/2 > x > -4"
+          ], 
+          answer: "C"
+        },
+        {
+          type: "mcq", 
+          question: "How many terms of the series 2+3+9/2+... must be taken for the sum to exceed 30?",  
+          options: [
+            "A. 4",
+            "B. 3",
+            "C. 6",
+            "D. 5"
+          ], 
+          answer: "C"
+        },
+        {
+          type: "mcq", 
+          question: "Insert three arithmetic means between 3 and 19. What is the sum of the linear function?",  
+          options: [
+            "A. 4",
+            "B. 15",
+            "C. 19",
+            "D. 55"
+          ], 
+          answer: "D"
+        },
+        {
+          type: "mcq", 
+          question: "How many terms are there in a sequence of arithmetic progression whose the sum of the first and last term are 4 and 26 and the sum is 180 respectively?",  
+          options: [
+            "A. 12",
+            "B. 10",
+            "C. 4",
+            "D. 30"
+          ], 
+          answer: "A"
+        },
+        {
+          type: "mcq", 
+          question: "Find in the sequence. If the first three terms are in arithmetic sequence and the last three are geometric sequence. Find a and b.",  
+          options: [
+            "A. 5, 25/4",
+            "B. 4/25, 5",
+            "C. 5, -4/25",
+            "D. 25/4, 5"
+          ], 
+          answer: "D"
+        },
+
+      
+      {
+          type: "mcq",
+          question: "A father places a sum of money in a savings account for his daughter when she was born. On each succeeding birthday, the father deposits two more than on the previous birthday without interest. The total sum of the first thirteen deposits is . How large was the last three deposits?",
+          options: [
+              "A. #2591",
+              "B. #1259",
+              "C. #9521",
+              "D. #5912"
+          ],
+          answer: "C"
+      },
+      
+      {
+      type: "mcq",
+      question: "An uncle places a sum of money in a savings account for a nephew when he was born. On each succeeding birthday, the uncle deposits two times the amount of the previous deposit. If the total sum of the first 11 deposits is $2047, how large was the first deposit?",
+      options: [
+          "A. $1",
+          "B. $2",
+          "C. $3",
+          "D. $4"
+      ],
+      answer: "A"
+  },
+    
+  {
+      type: "mcq",
+      question: "Given the arithmetic sequence starting at 2 with a common difference of 3, find the sum of the first ten terms.",
+      options: [
+          "A. 513",
+          "B. 153",
+          "C. 155",
+          "D. 551"
+      ],
+      answer: "C"
+  },
+  {
+      type: "mcq",
+      question: "The sixth and thirteenth terms of an arithmetic progression are both -1. Find the sum of the first twenty terms.",
+      options: [
+          "A. 0",
+          "B. 14",
+          "C. -20",
+          "D. -10"
+      ],
+      answer: "C"
+  },
+  {
+      type: "mcq",
+      question: "Find the geometric mean for the consecutive terms 4 and 16.",
+      options: [
+          "A. 8",
+          "B. 4",
+          "C. 16",
+          "D. 32"
+      ],
+      answer: "A"
+  },
+  {
+      type: "mcq",
+      question: "Find the arithmetic mean for the consecutive terms -3 and 7.",
+      options: [
+          "A. 1",
+          "B. 2",
+          "C. 3",
+          "D. None"
+      ],
+      answer: "B"
+  },
+  {
+      type: "mcq",
+      question: "Find the geometric mean for the consecutive terms 2 and 8.",
+      options: [
+          "A. 2",
+          "B. 4",
+          "C. 8",
+          "D. 16"
+      ],
+      answer: "B"
+  },
+  {
+      type: "mcq",
+      question: "Find the arithmetic mean for the consecutive terms 5 and -1.",
+      options: [
+          "A. 2",
+          "B. 7",
+          "C. -3",
+          "D. None"
+      ],
+      answer: "A"
+  },
+  {
+      type: "mcq",
+      question: "To what sum does the geometric series \( 3 + 1.5 + 0.75 + ... \) converge?",
+      options: [
+          "A. 4",
+          "B. 6",
+          "C. 8",
+          "D. 12"
+      ],
+      answer: "B"
+  },
+  {
+      type: "mcq",
+      question: "Find the sum to which the series \( 1 + 1/2 + 1/4 + ... \) converges.",
+      options: [
+          "A. 1",
+          "B. 2",
+          "C. 3",
+          "D. 4"
+      ],
+      answer: "B"
+  },
+  {
+      type: "mcq",
+      question: "Find the first term and common difference of three numbers in an arithmetic sequence with a sum of 15 and a product of 105.",
+      options: [
+          "A. 1, 2",
+          "B. 3, 2",
+          "C. 5, -2",
+          "D. 7, -2"
+      ],
+      answer: "B"
+  },
+  {
+      type: "mcq",
+      question: "The third and fourth terms of an arithmetic sequence are 15 and 5. What are the first term and common difference?",
+      options: [
+          "A. 25, -5",
+          "B. 30, -10",
+          "C. 35, -10",
+          "D. 40, -5"
+      ],
+      answer: "C"
+  },
+  {
+      type: "mcq",
+      question: "What is the first term and common ratio of a geometric sequence where the third term is 4 and the seventh term is 64?",
+      options: [
+          "A. 1, 2",
+          "B. 2, 3",
+          "C. 3, 2",
+          "D. 4, 2"
+      ],
+      answer: "A"
+  },
+  {
+      type: "mcq",
+      question: "The third term of an arithmetic sequence is 39, and the seventh term is -20. Find the first term and common difference.",
+      options: [
+          "A. 39, 20",
+          "B. 20, 39",
+          "C. 39, -20",
+          "D. -20, -39"
+      ],
+      answer: "C"
+  },
+  
+ 
+  {
+      type: "mcq",
+      question: "Find the first term of a geometric sequence with a common ratio of 3, where the second term is 6 and the last term is 4374.",
+      options: [
+          "A. 2",
+          "B. 3",
+          "C. 4",
+          "D. 6"
+      ],
+      answer: "A"
+  },
+
+  
+  //Binomial Expansion
+  { 
+      type: "mcq", 
+      question: "What is the coefficient of x^r in the expansion of (1 + x)^n?",
+      options: [
+        "A. C(n, r)",
+        "B. C(n+1, r+1)",
+        "C. C(n, r^(r+1))",
+        "D. C(n-1, r)"
+      ],
+      answer: "A" 
+    },
+    { 
+      type: "mcq", 
+      question: "One of the following has the same value as C(n, 1).",
+      options: [
+        "A. C(n, n-1)^(r+1)",
+        "B. C(n, r)",
+        "C. C(n, r)",
+        "D. C(n-1, r)"
+      ],
+      answer: "A" 
+    },
+    { 
+      type: "mcq", 
+      question: "From Pascal’s triangle, the addition of C(n, r-1) and C(n, r) gives",
+      options: [
+        "A. C(n+1, r)^(r+1)",
+        "B. C(n, r+1)",
+        "C. C(n+1, r-1)",
+        "D. C(n, r-1)"
+      ],
+      answer: "A" 
+    },
+    { 
+      type: "mcq", 
+      question: "Express (a + x)^n in ascending powers of x. In other words, write it in summation form.",
+      options: [
+        "A. sum from r = 0 to n of [C(n, r) * x^r * a^(n-r)]",
+        "B. sum from r = 0 to n of [C(n, r) * x^r * a^(n-r)] + r",
+        "C. sum from r = 0 to n of [C(n, r) * x^(n-r) * a^(n-r)]",
+        "D. sum from r = 0 to n of [C(n, r) * x^(n-r) * a^r]"
+      ],
+      answer: "A" 
+    },
+    { 
+      type: "mcq", 
+      question: "Differentiate the expansion of (1 + x)^n twice with respect to x, then put x = 0. What do you get?",
+      options: [
+        "A. C(n, r) = 2/n",
+        "B. C(n, 1) = 2/(n+1)",
+        "C. C(n, 2) = n(n-1)/2",
+        "D. C(n, 2) = 2/(n(n-1))"
+      ],
+      answer: "C" 
+    },
+    { 
+      type: "mcq", 
+      question: "For a positive integer n, the factorial n! is equivalent to",
+      options: [
+        "A. (n-1)!",
+        "B. n * (n+1) * (n-2)!",
+        "C. (n+1)!",
+        "D. n * (n-1) * (n-2)!"
+      ],
+      answer: "D" 
+    },
+    { 
+      type: "mcq", 
+      question: "The value of the sum from k = 0 to n of C(n, k) is",
+      options: [
+        "A. 2^(n-2)",
+        "B. 2^n",
+        "C. 2n",
+        "D. n^2"
+      ],
+      answer: "B" 
+    },
+    { 
+      type: "mcq", 
+      question: "Expand (x + 2y)^7 in ascending powers of x.",
+      options: [
+        "A. x^7 + 14x^6y + 84x^5y^2 + 280x^4y^3 + 560x^3y^4 + 672x^2y^5 + 448xy^6 + 128y^7",
+        "B. 128y^7 + 448xy^6 + 672x^2y^5 + 560x^3y^4 + 280x^4y^3 + 84x^5y^2 + 14x^6y + x^7",
+        "C. x^7 + 4x^6y + 84x^5y^2 + 28x^4y^3 + 56x^3y^4 + 672x^2y^5 + 448xy^6 + 128y^7",
+        "D. 128y^7 + 448xy^6 + 62x^2y^5 + 560x^3y^4 + 280x^4y^3 + 8x^5y^2 + 14x^6y + x^7"
+      ],
+      answer: "B" 
+    },
+    { 
+      type: "mcq", 
+      question: "Find the term independent of y in the expansion of ((x^4)/y^3 + (y^2)/(2x))^10.",
+      options: [
+        "A. (105/32)x^11",
+        "B. (15/32)x^10",
+        "C. (105/32)x^10",
+        "D. 105x^10"
+      ],
+      answer: "C" 
+    },
+    { 
+      type: "mcq", 
+      question: "Find the maximum coefficient in the expansion of (3x + 5)^10.",
+      options: [
+        "A. 26581250",
+        "B. 26578250",
+        "C. 26578125",
+        "D. 265781250"
+      ],
+      answer: "D" 
+    },
+    { 
+      type: "mcq", 
+      question: "Obtain the first four terms of the expansion of (1 + 3x)^(1/3) in ascending powers of x.",
+      options: [
+        "A. 1 + x - x^2 + (5/3)x^3",
+        "B. 1 - x - x^2 + (5/3)x^3",
+        "C. 1 - x + x^2 + (5/3)x^3",
+        "D. 1 + x - x^2 - (3/5)x^3"
+      ],
+      answer: "A" 
+    },
+    { 
+      type: "mcq", 
+      question: "Obtain the expansion of sqrt(9 + x^2) up to the term in x^4.",
+      options: [
+        "A. 3 + (1/3)x^2 + x - (1/216)x^4",
+        "B. 3 + (1/6)x^2 - (1/216)x^4",
+        "C. 3 - (1/6)x^2 - (1/216)x^4",
+        "D. 3 + (1/6)x^2 + (1/216)x^4"
+      ],
+      answer: "B" 
+    },
+    { 
+      type: "mcq", 
+      question: "Find the constant term in the expansion of (2z^2 + 1/z)^9.",
+      options: [
+        "A. 670",
+        "B. 671",
+        "C. 672",
+        "D. 673"
+      ],
+      answer: "C" 
+    },
+    { 
+      type: "mcq", 
+      question: "Find the middle term in the expansion of (x^2 + y^2)^8.",
+      options: [
+        "A. 60xy",
+        "B. 70x^8y^8",
+        "C. 70x^6y^8",
+        "D. 70x^8y^6"
+      ],
+      answer: "B" 
+    },
+    { 
+      type: "mcq", 
+      question: "Find the fifth term in the expansion of (-3x - 4y)^6 in descending powers of x.",
+      options: [
+        "A. 345x^3y^3",
+        "B. 34560x^3y^3",
+        "C. 34560x^2y^4",
+        "D. 3456x^3y^3"
+      ],
+      answer: "B" 
+    },
+    { 
+      type: "mcq", 
+      question: "For what value of x is the expansion of 1/(a + bx) valid?",
+      options: [
+        "A. |x| < a/b",
+        "B. |x| > a/b",
+        "C. |x| < 1/b",
+        "D. |x| < a/2"
+      ],
+      answer: "A" 
+    },
+    { 
+      type: "mcq", 
+      question: "Find the sum of the constant coefficients in the expansion of (3 + 2x)^4.",
+      options: [
+        "A. 620",
+        "B. 630",
+        "C. 625",
+        "D. 216"
+      ],
+      answer: "C" 
+    },
+    { 
+      type: "mcq", 
+      question: "Find the first four terms in the expansion of (1 - 3x^2)^5 in ascending powers of x.",
+      options: [
+        "A. 1 - 15x^2 + 90x^4 - 270x^6",
+        "B. 1 - 15x^2 + 90x^4 + 270x^6",
+        "C. 1 + 15x^2 + 90x^4 + 270x^6",
+        "D. 1 - 15x^2 - 90x^4 - 270x^6"
+      ],
+      answer: "A" 
+    },
+    { 
+      type: "mcq", 
+      question: "State the value of |x| for which the expansion of (27 - 6x)^(-2/3) is valid.",
+      options: [
+        "A. |x| < 2/9",
+        "B. |x| < 9/2",
+        "C. |x| < 1/9",
+        "D. |x| > 2/9"
+      ],
+      answer: "B" 
+    },
+    { 
+      type: "mcq", 
+      question: "State the condition under which the expansion of (x + 2y)^(-5) is valid (in ascending powers of y).",
+      options: [
+        "A. |y/x| < 1/2",
+        "B. |y/x| < 1",
+        "C. |y/x| > 1/2",
+        "D. |x/y| < 1/2"
+      ],
+      answer: "A" 
+    },
+    { 
+      type: "mcq", 
+      question: "Simplify (n / C(n, r)).",
+      options: [
+        "A. (r+1)/(n-r)",
+        "B. n - r",
+        "C. r + 1",
+        "D. (n-r)/(r+1)"
+      ],
+      answer: "D" 
+    },
+    { 
+      type: "mcq", 
+      question: "Find the term independent of y in the expansion of ((4/x^5) - (2x/(3y)))^10.",
+      options: [
+        "A. 1048576/x^50",
+        "B. 1048576/x^20",
+        "C. 1048576/y^30",
+        "D. 1048576/x^30"
+      ],
+      answer: "A" 
+    },
+    { 
+      type: "mcq", 
+      question: "Find the fifth term in the expansion of (3x + 2y^2)^12 in descending powers of x.",
+      options: [
+        "A. 5196312 x^8 y^8",
+        "B. 51963120 x^6 y^9",
+        "C. 51963120 x^7 y^8",
+        "D. 51963120 x^8 y^8"
+      ],
+      answer: "D" 
+    },
+    { 
+      type: "mcq", 
+      question: "Find the value of ( (10/r) / (10/(r+1)) ).",
+      options: [
+        "A. (r+1)/(10-r)",
+        "B. r/(10-r)",
+        "C. (r-1)/(10+r)",
+        "D. r/(10+r)"
+      ],
+      answer: "A" 
+    },
+    { 
+      type: "mcq", 
+      question: "Evaluate the term independent of x in the expansion of (x^2 - (1/(2x)))^9.",
+      options: [
+        "A. 16/21",
+        "B. 21/16",
+        "C. 21",
+        "D. 16"
+      ],
+      answer: "B" 
+    },
+    { 
+      type: "mcq", 
+      question: "Find the constant term in the expansion of (x^2 - (2/x))^6.",
+      options: [
+        "A. 360",
+        "B. 240",
+        "C. 140",
+        "D. 420"
+      ],
+      answer: "B" 
+    },
+    { 
+      type: "mcq", 
+      question: "Find the value of sum for k = 1 to 5 of [k * C(5, k)].",
+      options: [
+        "A. 60",
+        "B. 6",
+        "C. 32",
+        "D. 80"
+      ],
+      answer: "D" 
+    },
+    { 
+      type: "mcq", 
+      question: "Find the value of sum for r = 3 to 8 of [r! * C(8, r)].",
+      options: [
+        "A. 10802",
+        "B. 10956",
+        "C. 109536",
+        "D. 10804"
+      ],
+      answer: "C" 
+    },
+    { 
+      type: "mcq", 
+      question: "Find the coefficient of x^4 in the expansion of (2x - 3/x²)⁴.",
+      options: [
+        "A. 16",
+        "B. 32",
+        "C. 42",
+        "D. 14"
+      ],
+      answer: "A" 
+    },
+    { 
+      type: "mcq", 
+      question: "Determine the greatest coefficient in the expansion of (3x + 1)^8.",
+      options: [
+        "A. 17496",
+        "B. 20412",
+        "C. 2941",
+        "D. 204120"
+      ],
+      answer: "B" 
+    },
+    { 
+      type: "mcq", 
+      question: "Find the constant term in the expansion of (3x+1)^8.",
+      options: [
+        "A. 1",
+        "B. 2",
+        "C. 3",
+        "D. 4"
+      ],
+      answer: "A" 
+    },
+    { 
+      type: "mcq", 
+      question: "Find the value of x for which the expansion of (2 + (1/4)x)^5 is valid.",
+      options: [
+        "A. |x| < 2",
+        "B. |x| < 4",
+        "C. |x| < 8",
+        "D. |x| < 1/2"
+      ],
+      answer: "C" 
+    },
+    { 
+      type: "mcq", 
+      question: "Evaluate the sum from r = 1 to 5 of (r+3)!.",
+      options: [
+        "A. 46224",
+        "B. 4624",
+        "C. 4224",
+        "D. 46228"
+      ],
+      answer: "A" 
+    },
+    { 
+      type: "mcq", 
+      question: "Simplify: C(n+1, n-1) + C(n, n-1).",
+      options: [
+        "A. 2/(n+3)",
+        "B. 2/(n^2+3)",
+        "C. (n^2+3n)/2",
+        "D. (n^2-3n)/2"
+      ],
+      answer: "C" 
+    },
+    { 
+      type: "mcq", 
+      question: "Find the constant term in the expansion of ((1/beta^2) - beta)^18.",
+      options: [
+        "A. 18564",
+        "B. 1856",
+        "C. 64531",
+        "D. 185640"
+      ],
+      answer: "A" 
+    },
+    { 
+      type: "mcq", 
+      question: "Simplify: C(n+1, n-1) - C(n, n-1).",
+      options: [
+        "A. (n^2-3n)/2",
+        "B. (n^2+3n)/2",
+        "C. n(n+1)/2",
+        "D. n(n-1)/2"
+      ],
+      answer: "D" 
+    },
+    { 
+      type: "mcq", 
+      question: "Simplify: C(n+1, n-1).",
+      options: [
+        "A. (n-1)/2",
+        "B. (n+1)/2",
+        "C. n/2",
+        "D. n/2 + 1"
+      ],
+      answer: "D" 
+    },
+    { 
+      type: "mcq", 
+      question: "Find the term independent of y in the expansion of ((x^4)/(3y^3) + (y^2)/(2x))^5.",
+      options: [
+        "A. (5/36)x^5",
+        "B. (5/6)x^5",
+        "C. (36/5)x^5",
+        "D. 36x^5"
+      ],
+      answer: "A" 
+    },
+    { 
+      type: "mcq", 
+      question: "Find the coefficient of x^4 in the expansion of (1 + (3/4)x)⁴.",
+      options: [
+        "A. 8/25",
+        "B. 81/25",
+        "C. 81/256",
+        "D. 27/8"
+      ],
+      answer: "C" 
+    },
+    
+
+    
         ];     
     
     
